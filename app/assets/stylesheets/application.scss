@@ -16,3 +16,32 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.main {
+	height: 500px;
+}
+
+.footer {
+	padding: 30px 20px 10px 20px;
+	height: 130px;
+	background-color: #F8F8F8;
+	color: #333333;
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+			margin: 10px;
+		}
+		margin-bottom: 0;
+	}
+	.copyright {
+		font-size: 12px;
+		text-align: right;
+	}
+	a:link {
+		color: #76B100;
+	}
+	a:visited {
+		color: #76B100;
+	}
+}
