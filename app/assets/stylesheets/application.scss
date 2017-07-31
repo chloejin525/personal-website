@@ -17,31 +17,84 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-.main {
-	height: 500px;
+body {
+  padding-top: 60px;
 }
 
-.footer {
-	padding: 30px 20px 10px 20px;
-	height: 130px;
-	background-color: #F8F8F8;
-	color: #333333;
-	ul {
-		list-style: none;
-		li {
-			display: inline;
-			margin: 10px;
-		}
-		margin-bottom: 0;
-	}
-	.copyright {
-		font-size: 12px;
-		text-align: right;
-	}
-	a:link {
-		color: #76B100;
-	}
-	a:visited {
-		color: #76B100;
-	}
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+#header-container {
+	margin-left: 35px;
+}
+
+.header-navbar {
+	
+}
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 15px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  a {
+  	color: #555;
+  }
+  a:hover {
+  	color: #222;
+  }
+  small {
+  	float: right;
+  }
+  ul {
+  	float: left;
+  	list-style: none;
+  	margin-left: -40px;
+  	li {
+  	  float: left;
+  	  margin-right: 15px;
+  	}
+ }
 }
