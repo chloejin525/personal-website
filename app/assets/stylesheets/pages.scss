@@ -14,15 +14,20 @@
   	color: #e52364;
   }
   a:hover {
-  	background-color: rgba(255, 0, 0, 0.3);
-  	color: #fff;
-  }
+  		background-color: rgba(255, 0, 0, 0.3);
+  		color: #fff;
+  		text-decoration: none;
+  	}
   .contact {
   	margin-top: -25px;
   	font-size: 18px;
+  	a {
+  		padding: 5px;
+  	}
   	i {
-		margin-right: 15px;
-	}
+			margin-right: 15px;
+			color: #E9F1F2;
+		}
   }
 
 }
@@ -78,6 +83,7 @@
 	}
 	#miniver {
 		margin-left: 50px;
+		height: 340px;
 	}
 
 	#orwell {
