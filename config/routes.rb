@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'web' => 'pages#web'
   get 'ios' => 'pages#ios'
   get 'contact' => 'pages#contact'
+  get 'translation' => 'pages#translation'
 
   root 'pages#welcome'
 

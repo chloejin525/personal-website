@@ -1,3 +1,100 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.welcome {
+	height: 800px;
+	background: url("https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg") no-repeat center center;
+	background-size: cover;
+	ul {
+		list-style: none;
+	}
+
+	a {
+  	color: #e52364;
+  }
+  a:hover {
+  	background-color: rgba(255, 0, 0, 0.3);
+  	color: #fff;
+  }
+  .contact {
+  	margin-top: -25px;
+  	font-size: 18px;
+  	i {
+		margin-right: 15px;
+	}
+  }
+
+}
+
+.intro {
+	font-family: 'Rock Salt', cursive;
+	margin: 50px 180px 40px 40px;
+	letter-spacing: 2px;
+	font-size: 24px;
+	ul {
+		list-style: none;
+		li {
+			margin-left: -40px;
+		}
+	}
+}
+
+.translation {
+	margin-top: -20px;
+	margin-bottom: 20px;
+	height: 120px;
+	background: url(https://static.pexels.com/photos/34592/pexels-photo.jpg) no-repeat center center;
+	background-size: cover;
+	
+	h3 {
+		font-size: 30px;
+		color: #fff;
+		font-family: 'Droid Serif', serif;
+		padding-top: 40px;
+	}
+
+}
+
+.well {
+	height: 600px;
+	font-family: 'Droid Serif', serif;
+	.row {
+		margin-left: 15px;
+		margin-top: 8px;
+	}
+	img {
+		margin-top: 40px;
+	}
+
+	#universe{
+		margin-left: 50px;
+		width: 220px;
+		height: 340px;
+	}
+	#ghost {
+		width: 320px;
+		height: 340px;
+	}
+	#miniver {
+		margin-left: 50px;
+	}
+
+	#orwell {
+		margin-top: 20px;
+		margin-left: 30px;
+		width: 260px;
+		height: 340px;
+	}
+
+	#men {
+		margin-left: 30px;
+		width: 260px;
+		height: 340px;
+	}
+	#lady {
+		margin-left: 30px;
+		width: 260px;
+		height: 340px;
+	}
+}

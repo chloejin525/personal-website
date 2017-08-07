@@ -14,11 +14,15 @@
  *= require_self
  */
 
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Abril+Fatface|Bree+Serif|Rock+Salt');
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome';
+
 
 body {
   padding-top: 60px;
+
 }
 
 section {
@@ -45,7 +49,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
-  letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -67,6 +70,18 @@ p {
 /* header */
 #header-container {
 	margin-left: 35px;
+}
+
+.title {
+  margin-top: -20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.subtitle {
+  margin-top: -20px;
+  color: #7F808D;
+  font-family: 'Droid Serif', serif;
+
 }
 
 .header-navbar {
