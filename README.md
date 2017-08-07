@@ -1,1 +1,1 @@
-This is the repo for my personal webiste which will be published soon. 
+This is the repo for my personal website which will be published soon. 
